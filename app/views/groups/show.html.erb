@@ -16,7 +16,7 @@
     <% end %>
   </div>
   <h2><%= @group.title %></h2>
-  <P><%= @group.description %></p>
+  <P><%= simple_format(@group.description) %></p>
 
   <table class="table">
     <thead>
